@@ -1,0 +1,13 @@
+exclude:
+  [
+    "./README.md",
+    "./gulpfile.js",
+    "./CNAME",
+    "./manifest.json",
+    "./browserconfig.xml",
+    "./.git",
+    "./.github/",
+    "./LICENSE",
+    "./package.json",
+    "./package-lock.json",
+  ]
