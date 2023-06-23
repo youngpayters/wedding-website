@@ -23,12 +23,13 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
     "animate.css": "^3.7.2",
     "font-awesome": "^4.7.0",
+    "sass": "^1.63.6",
     "waypoints": "^4.0.1"
   }
 }
