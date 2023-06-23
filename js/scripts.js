@@ -567,3 +567,13 @@ var x = setInterval(function () {
     $("#countdown").html("It's time to get hitched!");
   }
 }, 1000);
+
+function copyPromoCode() {
+  // Get the text field
+  var copyText = document.getElementById("promo-code");
+
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.textContent);
+
+  document.getElementById("promo-copied").classList.remove("hidden");
+}
